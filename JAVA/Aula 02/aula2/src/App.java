@@ -23,7 +23,7 @@ public class App {
 
         System.out.println("Soma = " + soma);
         System.out.println("Subtração = " + subtracao);
-        System.out.println("Multipliocação = " + multiplicacao);
+        System.out.println("Multiplicação = " + multiplicacao);
         System.out.println("Divisão = " + divisao);
         System.out.println("Resto da Divisão = " + restoDivisao);
 
@@ -34,7 +34,5 @@ public class App {
 
         System.out.println("Decremento após = " + a--);
         System.out.println("Decremento antes = " + --b);
-
-        
     } 
 }
