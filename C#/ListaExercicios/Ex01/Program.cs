@@ -1,11 +1,11 @@
-﻿class Program
-{
+﻿using System;
 
+class Program
+{
     static void Main(string[] args)
     {
-
         //int[] desordenado = new in
         Random random = new Random();
-        console.WriteLine(random.Next())
+        Console.WriteLine(random.Next(100));
     }
 }
