@@ -29,6 +29,8 @@ public class App {
                         System.out.println(num);
                     }
                 }
+            } else {
+                System.out.println("Opção Inválida");
             }
         }
         System.out.println("Sistema encerrado!!");
