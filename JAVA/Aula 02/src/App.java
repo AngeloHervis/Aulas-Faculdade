@@ -15,7 +15,7 @@ public class App {
 
         // System.out.println("Aula de Estruturas Condicionais");
         int i = 0;
-        int j = 0;
+        // int j = 0;
         float soma = 0;
         float subtracao = 0;
         float multiplicacao = 0;
