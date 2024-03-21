@@ -4,6 +4,7 @@ public class Calculadora {
     public static void main(String [] args) {
         Scanner scanner = new Scanner(System.in);
 
+        try{
         System.out.println("Calculadora Simples");
         System.out.println("Digite o primeiro número: ");
         double num1 = scanner.nextDouble();
@@ -38,8 +39,11 @@ public class Calculadora {
                 System.out.println("Operação inválida.");
                 return;
         }
+    
         System.out.println("Resultado:" + resultado);
-
+        }
+        finally{
         scanner.close();
     }
+}
 }
