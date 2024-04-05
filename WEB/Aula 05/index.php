@@ -112,6 +112,24 @@
     $notas_aluno1 = array(7, 8, 6, 9);
     calcularMediaAluno($notas_aluno1);
     //Exercício 05
+    function calcularFatorial($numero)
+    {
+        if ($numero < 0) {
+            return "Não é possível calcular o fatorial de um número negativo.";
+        } elseif ($numero == 0) {
+            return "O fatorial de 0 é 1.";
+        } else {
+            $fatorial = 1;
+            for ($i = 1; $i <= $numero; $i++) {
+                $fatorial *= $i;
+            }
+            return $fatorial;
+        }
+    }
+
+    // Exemplo de uso da função
+    $numero = 5;
+    echo "!$numero = " . calcularFatorial($numero);
     ?>
 
     <form method="post" action="">
