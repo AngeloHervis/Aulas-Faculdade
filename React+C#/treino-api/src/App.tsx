@@ -1,12 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ProdutoListar from "./components/pages/produto/produto-listar";
 import ConsultarCep from "./components/pages/cep/consultar-cep";
 
 function App() {
   return (
     <div>
-      <h1>App</h1>
-      <ConsultarCep />
+      <ProdutoListar></ProdutoListar>
+      {/* <ConsultarCep></ConsultarCep> */}
     </div>
   );
 }
